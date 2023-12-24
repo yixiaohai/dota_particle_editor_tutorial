@@ -291,7 +291,7 @@
 </tr>
 <tr>
 <td>Description (Valve)</td>
-<td><p>This enables particles to be destroyed by the effect.</p><p>All effects should have a Decay Operator (usually Lifespan Decay) unless you’re certain that the particles will get destroyed by some other means (usually code.)</p></td>
+<td><p>这使得粒子能够被该效果破坏。</p><p>所有效果都应该有一个衰退操作符（通常是寿命衰退），除非你确信粒子会被其他方式破坏（通常是代码）</p></td>
 </tr>
 <tr>
 <td>Additional Notes</td>
@@ -337,7 +337,7 @@
 </tr>
 <tr>
 <td>Description (Valve)</td>
-<td><p>Scales particles from the start to end scale over the specified time. Multiple Radius Scale operators can be used in an effect as long as their time coverage doesn’t overlap.</p></td>
+<td><p>在指定的时间内从开始缩放到结束缩放粒子。只要多个“半径比例”操作符的时间覆盖范围不重叠，就可以在效果中使用它们。</p></td>
 </tr>
 <tr>
 <td>Additional Notes</td>
@@ -12723,7 +12723,7 @@
 </tr>
 <tr>
 <td>Description (Valve)</td>
-<td><p>Emits the specified number of particles all at once and never repeats.</p></td>
+<td><p>一次发射指定数量的粒子，并且从不重复。</p></td>
 </tr>
 <tr>
 <td>Additional Notes</td>
