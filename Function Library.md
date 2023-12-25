@@ -8070,7 +8070,7 @@
 </tr>
 <tr>
 <td>Description (Valve)</td>
-<td><p>Initializes particle positions sequentially along a line between two control points.</p></td>
+<td><p>沿两个控制点之间的线顺序初始化粒子位置。</p></td>
 </tr>
 <tr>
 <td>Additional Notes</td>
@@ -10898,7 +10898,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>根据列表的属初始化坐标</td>
 </tr>
 </tbody>
 </table><hr>
@@ -11490,7 +11490,7 @@
 </tr>
 <tr>
 <td>Description (Valve)</td>
-<td><p>Ropes (which were named in a simpler time) are sequences of sprites streched across a set of points. Textures intended for use on rope particles are often tiled along one axis so they can be used to create long, thin, curved forms in 3D space.</p><p>Ropes can be difficult to work with, but are surprisingly powerful and versatile.</p></td>
+<td><p>绳索（在一个更简单的时代被命名）是分布在一组点上的精灵序列。用于绳索粒子的纹理通常沿一个轴平铺，因此可以用于在三维空间中创建细长的弯曲形状。</p><p>绳索可能很难使用，但其功能强大且用途广泛，令人惊讶。</p></td>
 </tr>
 <tr>
 <td>Additional Notes</td>
@@ -11788,7 +11788,7 @@
 </tr>
 <tr>
 <td>Description (Valve)</td>
-<td><p>Trails are sprites with additional built-in behavior that stretches them based on their speed over time.</p><p>Traditional use cases for trails include bullet tracers and sparks. Advanced users may also find them useful when particles need to be oriented in 3D space (a case that regular sprites handle poorly.)</p></td>
+<td><p>轨迹是具有额外内置行为的精灵，该行为根据它们随时间的推移的速度来拉伸轨迹。</p><p>轨迹的传统用例包括子弹追踪和火花。当粒子需要在3D空间中定向时（常规精灵处理能力较差的情况），高级用户可能也会发现它们很有用</p></td>
 </tr>
 <tr>
 <td>Additional Notes</td>
@@ -12110,7 +12110,7 @@
 </tr>
 <tr>
 <td>Description (Valve)</td>
-<td><p>Renders one or more real-time (but not shadow-casting) light sources based on particle positions.</p></td>
+<td><p>基于粒子位置渲染一个或多个实时（但不是阴影投射）光源。</p></td>
 </tr>
 <tr>
 <td>Additional Notes</td>
@@ -12196,7 +12196,7 @@
 </tr>
 <tr>
 <td>Description (Valve)</td>
-<td><p>Renders projected textures, which are capable of certain behaviors that are otherwise difficult to achieve.</p><p>Take, for example, a large scorch-mark on the ground. If you used a flat sprite (even one oriented to the ground polygon on which it sat), it still wouldn’t look right if it crossed polygon boundaries that changed angles or elevation. A projected texture, however, will conform to the surfaces upon which it’s projected.</p><p><i>Note that unlike many other effect renderers, this one takes a VMAT rather than a VTEX. VMATs are authored in the Material Editor, and should be shader type “Projected Dota”.</i></p></td>
+<td><p>渲染投影的纹理，这些纹理能够实现某些难以实现的行为。</p><p>举个例子，地上有一个很大的焦痕。如果你使用了一个平面精灵（即使是一个朝向它所在的地面多边形的精灵），如果它越过了改变角度或高程的多边形边界，它看起来仍然不对劲。然而，投影的纹理将与投影到其上的曲面一致。</p><p><i>请注意，与许多其他效果渲染器不同，此渲染器采用VMAT而不是VTEX。VMAT是在“材质编辑器”中编写的，并且应该是着色器类型“Projected Dota”。</i></p></td>
 </tr>
 <tr>
 <td>Additional Notes</td>
@@ -13630,11 +13630,11 @@
 </tr>
 <tr>
 <td>Description (Valve)</td>
-<td><p>Allows the manual positioning of up to four control points.</p><p>If you’re only setting one CP, consider using “Set Single Control Point Position” instead.</p></td>
+<td><p>允许手动定位最多四个控制点。</p><p>如果只设置一个CP，请考虑使用“Set Single Control Point Position”。</p></td>
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>设定控制点位置</td>
 </tr>
 </tbody>
 </table><hr>
@@ -13802,7 +13802,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>将CP速度重新映射到CP</td>
 </tr>
 </tbody>
 </table><hr>
@@ -13868,7 +13868,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>HSV(颜色)移动到控制点</td>
 </tr>
 </tbody>
 </table><hr>
@@ -13972,7 +13972,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>通过CP对象比例设置控制点</td>
 </tr>
 </tbody>
 </table><hr>
@@ -14018,7 +14018,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>设定控制点旋转</td>
 </tr>
 </tbody>
 </table><hr>
@@ -14072,7 +14072,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>将控制点设置为随机位置</td>
 </tr>
 </tbody>
 </table><hr>
@@ -14188,7 +14188,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>将平均标量值重新映射到CP</td>
 </tr>
 </tbody>
 </table><hr>
@@ -14250,7 +14250,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>将CP组件重新映射到CP组件</td>
 </tr>
 </tbody>
 </table><hr>
@@ -14320,7 +14320,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>将控制点设置为冲击点</td>
 </tr>
 </tbody>
 </table><hr>
@@ -14386,7 +14386,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>根据控制的驱动</td>
 </tr>
 </tbody>
 </table><hr>
@@ -14428,7 +14428,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>根据父子粒子次数启动子级</td>
 </tr>
 </tbody>
 </table><hr>
@@ -14470,7 +14470,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>反复触发子组</td>
 </tr>
 </tbody>
 </table><hr>
@@ -14529,7 +14529,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>将控制点组件设置为标量表达式</td>
 </tr>
 </tbody>
 </table><hr>
@@ -14583,7 +14583,7 @@
 </tr>
 <tr>
 <td>Additional Notes</td>
-<td>------------------</td>
+<td>斜坡控制点线性随机</td>
 </tr>
 </tbody>
 </table><hr>
@@ -14694,7 +14694,7 @@
 </tr>
 </tbody>
 </table><h2 id="constraint">Constraint</h2>
-<h3 id="constrain-distance-to-control-point">Constrain distance to control point</h3>
+<h3 id="constrain-distance-to-control-point">约束到控制点的距离</h3>
 
 <table>
 <thead>
